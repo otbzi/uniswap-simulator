@@ -1,3 +1,3 @@
 module github.com/duvbell/uniswap-simulator
 
-go 1.17
+go 1.21
