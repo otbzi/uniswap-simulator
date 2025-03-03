@@ -3,16 +3,16 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	cons "github.com/duvbell/uniswap-simulator/lib/constants"
+	ppool "github.com/duvbell/uniswap-simulator/lib/pool"
+	ent "github.com/duvbell/uniswap-simulator/lib/transaction"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"io/ioutil"
 	"math/big"
 	"os"
 	"path"
 	"strconv"
 	"testing"
-	cons "uniswap-simulator/lib/constants"
-	ppool "uniswap-simulator/lib/pool"
-	ent "uniswap-simulator/lib/transaction"
-	ui "uniswap-simulator/uint256"
 )
 
 func Test_Fee(t *testing.T) {

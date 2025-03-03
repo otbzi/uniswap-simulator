@@ -1,12 +1,12 @@
 package executor
 
 import (
+	cons "github.com/duvbell/uniswap-simulator/lib/constants"
+	"github.com/duvbell/uniswap-simulator/lib/fullmath"
+	strat "github.com/duvbell/uniswap-simulator/lib/strategy"
+	ent "github.com/duvbell/uniswap-simulator/lib/transaction"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"math"
-	cons "uniswap-simulator/lib/constants"
-	"uniswap-simulator/lib/fullmath"
-	strat "uniswap-simulator/lib/strategy"
-	ent "uniswap-simulator/lib/transaction"
-	ui "uniswap-simulator/uint256"
 )
 
 type Execution struct {

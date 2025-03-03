@@ -1,8 +1,8 @@
 package strategy
 
 import (
-	"uniswap-simulator/lib/pool"
-	ui "uniswap-simulator/uint256"
+	"github.com/duvbell/uniswap-simulator/lib/pool"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 )
 
 // V2Strategy [mintick, maxtick]

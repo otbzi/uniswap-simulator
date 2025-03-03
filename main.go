@@ -4,6 +4,12 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"github.com/duvbell/uniswap-simulator/lib/executor"
+	ppool "github.com/duvbell/uniswap-simulator/lib/pool"
+	"github.com/duvbell/uniswap-simulator/lib/result"
+	strat "github.com/duvbell/uniswap-simulator/lib/strategy"
+	ent "github.com/duvbell/uniswap-simulator/lib/transaction"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"io/ioutil"
 	"math"
 	"math/big"
@@ -13,12 +19,6 @@ import (
 	"strconv"
 	"sync"
 	"time"
-	"uniswap-simulator/lib/executor"
-	ppool "uniswap-simulator/lib/pool"
-	"uniswap-simulator/lib/result"
-	strat "uniswap-simulator/lib/strategy"
-	ent "uniswap-simulator/lib/transaction"
-	ui "uniswap-simulator/uint256"
 )
 
 // Rc Aave 6 month average APY

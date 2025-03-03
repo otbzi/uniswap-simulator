@@ -1,11 +1,11 @@
 package tickmath
 
 import (
+	cons "github.com/duvbell/uniswap-simulator/lib/constants"
+	"github.com/duvbell/uniswap-simulator/lib/invariant"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"math"
 	"math/big"
-	cons "uniswap-simulator/lib/constants"
-	"uniswap-simulator/lib/invariant"
-	ui "uniswap-simulator/uint256"
 )
 
 const (
@@ -77,7 +77,6 @@ func (t *TickMath) GetTickAtSqrtRatio(sqrtRatioX96 *ui.Int) int {
 // GetSqrtRatioAtTick
 // Returns the sqrt ratio as a Q64.96 for the given tick. The sqrt ratio is computed as sqrt(1.0001)^tick
 // @param tick the tick for which to compute the sqrt ratio
-//
 func getSqrtRatioAtTick(tick int) *ui.Int {
 	absTick := tick
 	if tick < 0 {

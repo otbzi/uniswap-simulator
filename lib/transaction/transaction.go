@@ -3,7 +3,8 @@ package transaction
 import (
 	"encoding/json"
 	"strconv"
-	ui "uniswap-simulator/uint256"
+
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 )
 
 type TransactionInput struct {

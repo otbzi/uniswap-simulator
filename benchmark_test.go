@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/duvbell/uniswap-simulator/lib/executor"
 	"testing"
-	"uniswap-simulator/lib/executor"
 )
 
 var (

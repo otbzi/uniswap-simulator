@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	cons "github.com/duvbell/uniswap-simulator/lib/constants"
+	ppool "github.com/duvbell/uniswap-simulator/lib/pool"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"math/big"
 	"testing"
-	cons "uniswap-simulator/lib/constants"
-	ppool "uniswap-simulator/lib/pool"
-	ui "uniswap-simulator/uint256"
 )
 
 func Test(t *testing.T) {

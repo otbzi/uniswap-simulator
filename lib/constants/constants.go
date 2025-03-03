@@ -1,8 +1,8 @@
 package constants
 
 import (
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"math/big"
-	ui "uniswap-simulator/uint256"
 )
 
 var (

@@ -2,9 +2,9 @@ package fullmath
 
 import (
 	"fmt"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"math/big"
 	"testing"
-	ui "uniswap-simulator/uint256"
 )
 
 func Test(t *testing.T) {

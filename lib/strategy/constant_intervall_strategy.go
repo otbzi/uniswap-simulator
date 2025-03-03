@@ -1,11 +1,11 @@
 package strategy
 
 import (
-	cons "uniswap-simulator/lib/constants"
-	la "uniswap-simulator/lib/liquidity_amounts"
-	"uniswap-simulator/lib/pool"
-	"uniswap-simulator/lib/tickmath"
-	ui "uniswap-simulator/uint256"
+	cons "github.com/duvbell/uniswap-simulator/lib/constants"
+	la "github.com/duvbell/uniswap-simulator/lib/liquidity_amounts"
+	"github.com/duvbell/uniswap-simulator/lib/pool"
+	"github.com/duvbell/uniswap-simulator/lib/tickmath"
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 )
 
 // ConstantIntervalStrategy [p-a, p+a]
