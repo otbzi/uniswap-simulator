@@ -1,8 +1,9 @@
 package constants
 
 import (
-	ui "github.com/duvbell/uniswap-simulator/uint256"
 	"math/big"
+
+	ui "github.com/duvbell/uniswap-simulator/uint256"
 )
 
 var (
@@ -19,6 +20,7 @@ var (
 )
 
 var TickSpaces = map[int]int{
+	100:   1,
 	500:   10,
 	3000:  60,
 	10000: 200,
