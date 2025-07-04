@@ -1,9 +1,9 @@
 package swapmath
 
 import (
-	fm "github.com/duvbell/uniswap-simulator/lib/fullmath"
-	sqrtmath "github.com/duvbell/uniswap-simulator/lib/sqrtprice_math"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	fm "github.com/otbzi/uniswap-simulator/lib/fullmath"
+	sqrtmath "github.com/otbzi/uniswap-simulator/lib/sqrtprice_math"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 )
 
 var MaxFee = new(ui.Int).Exp(ui.NewInt(10), ui.NewInt(6))

@@ -1,8 +1,8 @@
 package prices
 
 import (
-	"github.com/duvbell/uniswap-simulator/lib/invariant"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	"github.com/otbzi/uniswap-simulator/lib/invariant"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 	"math/big"
 )
 

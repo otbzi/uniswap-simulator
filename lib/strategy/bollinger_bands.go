@@ -1,11 +1,11 @@
 package strategy
 
 import (
-	la "github.com/duvbell/uniswap-simulator/lib/liquidity_amounts"
-	"github.com/duvbell/uniswap-simulator/lib/pool"
-	"github.com/duvbell/uniswap-simulator/lib/prices"
-	"github.com/duvbell/uniswap-simulator/lib/tickmath"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	la "github.com/otbzi/uniswap-simulator/lib/liquidity_amounts"
+	"github.com/otbzi/uniswap-simulator/lib/pool"
+	"github.com/otbzi/uniswap-simulator/lib/prices"
+	"github.com/otbzi/uniswap-simulator/lib/tickmath"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 )
 
 // BollingerBandsStrategy [pa - c*o, pa + c* o]

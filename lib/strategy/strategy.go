@@ -1,8 +1,8 @@
 package strategy
 
 import (
-	"github.com/duvbell/uniswap-simulator/lib/pool"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	"github.com/otbzi/uniswap-simulator/lib/pool"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 )
 
 type Position struct {

@@ -1,3 +1,3 @@
-module github.com/duvbell/uniswap-simulator
+module github.com/otbzi/uniswap-simulator
 
 go 1.21

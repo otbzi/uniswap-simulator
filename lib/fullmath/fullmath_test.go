@@ -2,7 +2,7 @@ package fullmath
 
 import (
 	"fmt"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 	"math/big"
 	"testing"
 )

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/duvbell/uniswap-simulator/lib/executor"
+	"github.com/otbzi/uniswap-simulator/lib/executor"
 	"testing"
 )
 

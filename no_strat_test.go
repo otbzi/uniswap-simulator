@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	cons "github.com/duvbell/uniswap-simulator/lib/constants"
-	ppool "github.com/duvbell/uniswap-simulator/lib/pool"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	cons "github.com/otbzi/uniswap-simulator/lib/constants"
+	ppool "github.com/otbzi/uniswap-simulator/lib/pool"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 	"math/big"
 	"testing"
 )

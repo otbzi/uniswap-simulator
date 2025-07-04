@@ -1,15 +1,15 @@
 package pool
 
 import (
-	cons "github.com/duvbell/uniswap-simulator/lib/constants"
-	"github.com/duvbell/uniswap-simulator/lib/fullmath"
-	"github.com/duvbell/uniswap-simulator/lib/invariant"
-	"github.com/duvbell/uniswap-simulator/lib/position"
-	"github.com/duvbell/uniswap-simulator/lib/sqrtprice_math"
-	"github.com/duvbell/uniswap-simulator/lib/swapmath"
-	td "github.com/duvbell/uniswap-simulator/lib/tickdata"
-	"github.com/duvbell/uniswap-simulator/lib/tickmath"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	cons "github.com/otbzi/uniswap-simulator/lib/constants"
+	"github.com/otbzi/uniswap-simulator/lib/fullmath"
+	"github.com/otbzi/uniswap-simulator/lib/invariant"
+	"github.com/otbzi/uniswap-simulator/lib/position"
+	"github.com/otbzi/uniswap-simulator/lib/sqrtprice_math"
+	"github.com/otbzi/uniswap-simulator/lib/swapmath"
+	td "github.com/otbzi/uniswap-simulator/lib/tickdata"
+	"github.com/otbzi/uniswap-simulator/lib/tickmath"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 )
 
 type StepComputations struct {

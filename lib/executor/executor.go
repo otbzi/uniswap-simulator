@@ -1,11 +1,11 @@
 package executor
 
 import (
-	cons "github.com/duvbell/uniswap-simulator/lib/constants"
-	"github.com/duvbell/uniswap-simulator/lib/fullmath"
-	strat "github.com/duvbell/uniswap-simulator/lib/strategy"
-	ent "github.com/duvbell/uniswap-simulator/lib/transaction"
-	ui "github.com/duvbell/uniswap-simulator/uint256"
+	cons "github.com/otbzi/uniswap-simulator/lib/constants"
+	"github.com/otbzi/uniswap-simulator/lib/fullmath"
+	strat "github.com/otbzi/uniswap-simulator/lib/strategy"
+	ent "github.com/otbzi/uniswap-simulator/lib/transaction"
+	ui "github.com/otbzi/uniswap-simulator/uint256"
 	"math"
 )
 
